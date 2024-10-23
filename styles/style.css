@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#shape {
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-size: 7rem;
+}
+
+
+/* nav & banner styles */
+
+.banner {
+    background: linear-gradient(180.00deg, rgb(18, 17, 17), rgba(119, 119, 119, 0) 100%), url(../images/Images\ 2.png);
+    background-repeat: no-repeat;
+    max-height: 715px;
+    padding-top: 3.5rem;
+}
+
+.nav-heading {
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12rem 6rem 12rem;
+}
+
+.nav-items {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+
+.nav-items a,
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 12px;
+}
+
+.nav-items a {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+#home {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px;
+}
+
+.banner-container {
+    max-width: 550px;
+    margin-left: 12rem;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+.banner-description {
+    /* body-text */
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
