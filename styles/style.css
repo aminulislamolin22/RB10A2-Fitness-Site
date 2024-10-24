@@ -41,6 +41,10 @@ body {
     padding: 16px 40px;
 }
 
+main {
+    background-color: black;
+}
+
 /* nav styles */
 
 header {
@@ -50,14 +54,14 @@ header {
 .banner {
     padding: 50px 0 75px 0;
     margin: 0 190px;
-    
+
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 .nav-heading {
@@ -144,7 +148,7 @@ header {
 #color {
     height: 40px;
     width: 40px;
-    border-radius: 360px;
+    border-radius: 50%;
     background: rgb(230, 83, 60);
 }
 
@@ -180,15 +184,48 @@ header {
 }
 
 
+/* habits style */
 
+.habits {
+    margin: 0 auto;
+    padding: 100px 0;
+    max-width: 1044px;
+    text-align: center;
+}
 
+.habits-text-container {
+    margin: 0 175px;
+}
 
+.habits-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
 
+.habits-subtitle {
+    margin-top: 14px;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
 
+.habit-items-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
 
+.habit-items img{
+    border-radius: 50%;
+}
 
+.habit-items h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 30px 0 6px 0;
+}
 
-.hidden {
-    visibility: hidden;
-    ;
+.habit-items p {
+    color: rgba(255, 255, 255, 0.5);
 }
