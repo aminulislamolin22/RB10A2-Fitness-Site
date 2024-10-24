@@ -23,7 +23,7 @@ body {
 
 .primary-btn {
     color: rgb(255, 255, 255);
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 16px 40px;
     border-radius: 42px;
@@ -54,14 +54,13 @@ header {
 .banner {
     padding: 50px 0 75px 0;
     margin: 0 190px;
-
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
 }
 
 .nav-heading {
@@ -209,13 +208,13 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.habit-items-container{
+.habit-items-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
 }
 
-.habit-items img{
+.habit-items img {
     border-radius: 50%;
 }
 
@@ -228,4 +227,77 @@ header {
 
 .habit-items p {
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* run extra section */
+
+.run-extra{
+    margin: 0 auto;
+    max-width: 1060px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 165px;
+}
+
+.run-extra-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-extra-subtitle {
+    margin-top: 14px;
+    margin-bottom: 34px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.run-extra img{
+    border-radius: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* responsive styles */
+
+/* small media screen */
+
+@media screen and (max-width: 576px) {
+    .banner{
+        margin: 0 20px;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+
+    #shape{
+        font-size: 3rem;
+    }
+
+    .banner-text-container{
+        max-width: 350px;
+    }
+
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .btn{
+        margin: 0 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .primary-btn{
+        font-size: 14px;
+    }
 }
