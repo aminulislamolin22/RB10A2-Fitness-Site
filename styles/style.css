@@ -550,12 +550,16 @@ hr {
     }
 
     .sub-btn-1 {
+        width: 150px;
+        height: 75px;
         position: relative;
         bottom: 340px;
         left: 10px;
     }
 
     .sub-btn-2 {
+        width: 150px;
+        height: 75px;
         position: relative;
         left: 200px;
     }
