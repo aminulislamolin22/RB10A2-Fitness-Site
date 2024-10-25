@@ -268,6 +268,111 @@ header {
 }
 
 
+/* bmi styles */
+
+.bmi-heading {
+    padding: 8px;
+    max-width: 670px;
+    margin: 75px auto;
+    text-align: left;
+}
+
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.bmi-description {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+}
+
+.bmi-calculator{
+    max-width: 577px;
+}
+
+.calculator-chart-container{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px;
+}
+
+.bmi-sub-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.bmi-chart table {
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 50px;
+}
+
+table th {
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+table th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table td {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 13px;
+    font-size: 1rem;
+}
+
+.bmi-input {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 650px;
+}
+
+.bmi-input input {
+    width: calc(100% - 60%);
+    border-radius: 8px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 10px;
+}
+
+.bmi-input select {
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 45%;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#activity{
+    width: 93%;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.calculate-btn{
+    margin-top: 15px;
+}
+
+
 /* meet teams style */
 
 .teams {
@@ -492,6 +597,31 @@ hr {
         text-align: left;
     }
 
+    .bmi{
+        margin: 20px;
+    }
+
+    .bmi-heading {
+        margin: 20px;
+    }
+
+    .bmi-sub-title {
+        font-size: 1rem;
+    }
+
+    table th{
+        font-size: 1rem;
+    }
+
+    .calculator-chart-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #activity{
+        width: 94%;
+    }
+
     .teams,
     .team-text-container {
         margin: 0 20px;
@@ -506,16 +636,20 @@ hr {
         flex-direction: column;
     }
 
-    .footer-container{
-        flex-direction: column;
-        text-align: start;
+    footer {
+        margin: 0px;
+        padding: 20px;
     }
 
-    .footer-text-container{
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-text-container {
         max-width: none;
     }
 
-    .get-title{
-        margin: 35px 0;
+    .get-title {
+        margin: 30px 0;
     }
 }
