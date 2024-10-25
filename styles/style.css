@@ -296,7 +296,7 @@ header {
     background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 145px;
     padding: 50px;
 }
 
@@ -312,7 +312,7 @@ header {
 }
 
 table {
-    margin-top: 50px;
+    margin-top: 48px;
 }
 
 table th {
